@@ -1,6 +1,6 @@
 # webpack-ssr-stats-loader
 
-Extract chunk data from a Webpack stats JSON file and converting into HTML tags for injection in server-side rendered markup.
+Extract chunk data from a Webpack stats JSON file and convert into HTML tags for injection in server-side rendered markup.
 
 ## Why?
 
