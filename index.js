@@ -14,7 +14,7 @@ class StatsLoader {
     });
   }
 
-  getElements(chunkName) {
+  getAssets(chunkName) {
     const assets = Object.values(this.stats.entrypoints).reduce(
       (accumulator, entrypoint) => {
         entrypoint.assets.forEach(asset => accumulator.push(asset));
