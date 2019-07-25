@@ -1,7 +1,7 @@
 {
   "name": "webpack-ssr-stats-loader",
   "version": "1.0.0",
-  "description": "Webpack Plugin for extracting chunk data from a stats JSON file and converting into HTML tags for injection in server-side rendered markup.",
+  "description": "Extract chunk data from a Webpack stats JSON file and converting into HTML tags for injection in server-side rendered markup.",
   "main": "index.js",
   "author": "Joe Fender",
   "license": "MIT"
