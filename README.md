@@ -10,7 +10,7 @@ The motivation for creating this package was to assist in injecting `<link rel="
 
 You'll need access to your [Webpack stats](https://webpack.js.org/api/stats/) as a JSON file. There is several ways to do this:
 1. Use [webpack-stats-disk-plugin](https://github.com/fender/webpack-stats-disk-plugin)
-1. Use [webpack-stats-disk-plugin](https://github.com/FormidableLabs/webpack-stats-plugin) if you don't SSR in your development environment
+1. Use [webpack-stats-plugin](https://github.com/FormidableLabs/webpack-stats-plugin) if you don't SSR in your development environment
 1. Pass `--json > <filename>.json` via webpack CLI commands, [see official docs](https://webpack.js.org/api/stats/).
 
 ## Usage
